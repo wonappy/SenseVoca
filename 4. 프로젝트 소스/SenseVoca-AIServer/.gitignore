@@ -1,0 +1,11 @@
+# Python 컴파일 파일 무시
+*.pyc
+__pycache__/
+
+# 가상환경 무시
+.venv/
+
+# 구글 드라이브 JSON 파일 무시
+src/app/core/sensevoca-d80e99dbaf02.json
+
+.env

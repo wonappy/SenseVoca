@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sensevoca?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: EKFEKFGKS_znzl
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jwt:
+    access-secret: h4N2oR7s2vLJ2KnY6GpMoUcKhKXLwVChgPZtsJTPA1Y=
+    refresh-secret: E1wR+Ks12XsGyzMGUD9fjKg9I4rQ7sM4OzuIK3quP5k=
+
+ai:
+  server:
+    url: http://127.0.0.1:8000
